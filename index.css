@@ -15,12 +15,16 @@ html{
 }
 h1{
     text-align: center;
-    border-bottom: 1px solid grey;
-    padding-bottom: 5px;
     margin:10px;
 }
-.text{
+p{
     text-align: center;
+}
+.fact{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    font-size: 14px;
+    margin: 10px;
 }
 .container{
     display: flex;
