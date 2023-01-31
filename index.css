@@ -4,6 +4,12 @@ html{
     color: rgb(241, 241, 241);
     background-color: rgb(41, 41, 41);
 }
+.all-copy{  
+    -webkit-user-select: all;  /* Chrome all / Safari all */
+    -moz-user-select: all;     /* Firefox all */
+    -ms-user-select: all;      /* IE 10+ */
+    user-select: all;          /* Likely future */   
+  }
 #btn{
     background-color: rgb(210, 210, 210);
     color: rgb(43, 43, 43);
