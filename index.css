@@ -3,6 +3,7 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(241, 241, 241);
     background-color: rgb(41, 41, 41);
+    touch-action: manipulation;
 }
 .all-copy{  
     -webkit-user-select: all;  /* Chrome all / Safari all */
