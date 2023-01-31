@@ -1,0 +1,31 @@
+html{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 241, 241);
+    background-color: rgb(41, 41, 41);
+}
+#btn{
+    background-color: rgb(210, 210, 210);
+    color: rgb(43, 43, 43);
+    height:fit-content;
+    width: fit-content;
+    padding: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    margin:10px;
+}
+.text{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:98vh;
+}
